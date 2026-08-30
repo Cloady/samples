@@ -1,0 +1,12 @@
+{
+  // Cloady reads this when there is no compose file or Dockerfile at the root.
+  "name": "devcontainer-app",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "forwardPorts": [3000],
+  "containerEnv": {
+    "GREETING": "hello from devcontainer"
+  }
+}

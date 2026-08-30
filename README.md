@@ -9,6 +9,7 @@ Minimal apps for exercising every Cloady deploy path. Each folder is self-contai
 | `python-web` | Python stdlib | railpack build |
 | `php-page` | PHP | railpack build |
 | `go-docker` | Go + Dockerfile | Dockerfile build (railpack skipped) |
+| `devcontainer-app` | Node via `.devcontainer` | devcontainer.json → synthesized template (build.dockerfile rebased onto context) |
 | `compose-stack` | Node + Redis via docker-compose | native compose template: build service, expose, named volume, `${VAR}` interpolation |
 
 Deploy a folder with the CLI:
