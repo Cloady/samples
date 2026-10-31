@@ -1,0 +1,7 @@
+{
+  "name": "broken-memory",
+  "private": true,
+  "scripts": {
+    "start": "node server.js"
+  }
+}
